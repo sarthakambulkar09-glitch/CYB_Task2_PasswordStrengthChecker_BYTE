@@ -1,0 +1,21 @@
+PASSWORD STRENGTH CHECKER - TEST CASES
+
+Test Case 1
+Input: abc
+Expected: Weak
+Reason: Too short and missing character classes.
+
+Test Case 2
+Input: password
+Expected: Weak
+Reason: No uppercase, number, or special character.
+
+Test Case 3
+Input: Password1
+Expected: Moderate
+Reason: Good length with uppercase, lowercase, and number.
+
+Test Case 4
+Input: Example!2026
+Expected: Strong
+Reason: Contains uppercase, lowercase, numbers, special character, and is 12+ characters long.
